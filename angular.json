@@ -25,10 +25,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "semantic/dist/semantic.min.css"
+              "libs/semantic/dist/semantic.min.css"
             ],
             "scripts": [
-              "semantic/dist/semantic.min.js"
+              "libs/semantic/dist/semantic.min.js"
             ]
           },
           "configurations": {
