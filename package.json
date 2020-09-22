@@ -48,5 +48,5 @@
 		"node": "10.*.*",
 		"npm": "6.*.*"
 	},
-	"cacheDirectories": ["libs\\semantic"]
+	"cacheDirectories": ["libs\\semantic", "node_modules"]
 }
