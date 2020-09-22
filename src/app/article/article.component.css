@@ -1,0 +1,11 @@
+.votes {
+	background-color: lightgrey;
+	border-radius: 0.5em;
+	padding: 2rem 5rem;
+}
+
+.voters {
+	list-style-type: none;
+	display: block!important;
+	margin-left: 0.7em;
+}
