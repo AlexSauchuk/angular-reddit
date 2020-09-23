@@ -3,11 +3,12 @@
 	"version": "0.0.0",
 	"scripts": {
 		"ng": "ng",
-		"start": "ng serve",
 		"build": "ng build",
 		"test": "ng test",
 		"lint": "ng lint",
-		"e2e": "ng e2e"
+		"e2e": "ng e2e",
+		"start": "node server.js",
+		"heroku-postbuild": "ng build --prod --aot"
 	},
 	"private": true,
 	"dependencies": {
@@ -19,6 +20,7 @@
 		"@angular/platform-browser": "^10.0.6",
 		"@angular/platform-browser-dynamic": "^10.0.6",
 		"@angular/router": "^10.0.6",
+		"express": "^4.17.1",
 		"fomantic-ui": "^2.8.7",
 		"gulp-header": "1.8.2",
 		"rxjs": "~6.5.5",
@@ -48,8 +50,5 @@
 	"engines": {
 		"node": "10.*.*",
 		"npm": "6.*.*"
-	},
-	"cacheDirectories": [
-		"libs\\semantic"
-	]
+	}
 }
